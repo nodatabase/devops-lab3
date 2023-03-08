@@ -9,6 +9,12 @@ docker build -t nodatabase/my-app .
 to build the image.
 
 ### Push
+
+Add tag for an image:
+```shell
+docker tag nodatabase/my-app nodatabase/my-app:lab3
+```
+
 ```shell
 docker image push nodatabase/my-app:lab3
 ```
