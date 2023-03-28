@@ -6,7 +6,7 @@ on:
 
 jobs:
   lint:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Check out code from the repository
@@ -23,7 +23,7 @@ jobs:
 
   build-and-push:
     needs: lint
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Check out code from the repository
